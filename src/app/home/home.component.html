@@ -1,0 +1,7 @@
+<app-header></app-header>
+<div class="content">
+    <app-box-service
+        *ngFor="let system of systems$ | async"
+        [system]="system">
+    </app-box-service>
+</div>

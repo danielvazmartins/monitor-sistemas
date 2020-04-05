@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    margin: auto;
+    background: #e0e0e0;
+    max-width: 900px;
+    text-align: center;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    .title {
+        color: #424242;
+    }
+}

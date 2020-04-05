@@ -1,0 +1,12 @@
+<div class="header">
+    <h3 class="title">{{system.name}}</h3>
+    <div class="status" *ngIf="status">
+        <span>Status:</span>
+        <div class="icon" [ngClass]="status"></div>
+    </div>
+</div>
+<div class="content">
+    <div class="service" *ngFor="let service of system.services">
+        <p>{{service.name}}: {{service.url}}</p>
+    </div>
+</div>
